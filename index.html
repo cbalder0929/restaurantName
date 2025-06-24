@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Green Haven Menu</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Green Haven Menu</h1>
+    <div class="tabs">
+      <button class="tab active" onclick="showTab('appetizers')">Appetizers</button>
+      <button class="tab" onclick="showTab('mains')">Mains</button>
+      <button class="tab" onclick="showTab('desserts')">Desserts</button>
+      <button class="tab" onclick="showTab('drinks')">Drinks</button>
+    </div>
+
+    <div id="menu-content" class="menu-content">
+      <!-- Menu items will be injected here by script.js -->
+    </div>
+  </div>
+  <script src="script/script.js"></script>
+</body>
+</html>
